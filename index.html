@@ -25,8 +25,8 @@
         if ('serviceWorker' in navigator) {
             window.addEventListener('load', () => {
                 navigator.serviceWorker.register('/sw.js')
-                    .then(reg => console.log('Service Worker terdaftar!', reg))
-                    .catch(err => console.log('Gagal daftar Service Worker', err))
+                    .then(reg => alert('Service Worker terdaftar!', reg))
+                    .catch(err => alert('Gagal daftar Service Worker', err))
             })
         }
     </script>
