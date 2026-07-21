@@ -1,0 +1,21 @@
+{
+    "short_name": "Absensi",
+    "name": "Aplikasi Absensi Karyawan",
+    "icons": [
+        {
+            "src": "icon-192.png",
+            "type": "image/png",
+            "size": "192x192"
+        },
+        {
+            "src": "icon-512.png",
+            "type": "image/png",
+            "size": "512x512"
+        }
+    ],
+    "start_url": "/index.html",
+    "background_color": "#ffffff",
+    "theme_color": "#007bff",
+    "display": "standalone",
+    "orientation": "portrait"
+}
